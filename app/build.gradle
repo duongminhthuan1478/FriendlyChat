@@ -47,8 +47,17 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.0.1'
     // FirebaseUI for Firebase Auth
     implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+
+    //Firebase Storege chứa nội dung lớn như image/video
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
     //login fb
     implementation 'com.facebook.android:facebook-android-sdk:4.34.0'
+    // nhận firebase notification from Firebase Console as well as message from Firebase Cloud mesagin
+    implementation 'com.google.firebase:firebase-messaging:17.3.0'
+    // remote config
+    implementation 'com.google.firebase:firebase-config:16.0.0'
+
+
 
 
 
